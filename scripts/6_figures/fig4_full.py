@@ -259,7 +259,7 @@ with matplotlib.rc_context(F4.RC):
     # The upper block (a-c, i, j) and the lower scatter row are laid out separately. In one
     # grid the titles of d-h ride up into the tick labels of panel c.
     outer = GridSpec(2, 1, figure=fig, height_ratios=[1915, 950],
-                     hspace=.30, left=.055, right=.985, top=.945, bottom=.055)
+                     hspace=.30, left=.068, right=.985, top=.930, bottom=.075)
     gs = outer[0].subgridspec(9, 24, hspace=1.9, wspace=2.6)
     gs_s = outer[1].subgridspec(1, 24, wspace=2.6)
 
