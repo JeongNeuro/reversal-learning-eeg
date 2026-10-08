@@ -1,0 +1,4 @@
+# Needed only to run the task. For analysis alone, the requirements.txt at the top of the repository is enough.
+psychopy>=2023.2      # stimulus presentation
+pylsl>=1.16           # lsl_client.py - the marker path actually used
+websocket-client>=1.6 # cortex_client.py - the alternative path, not used
