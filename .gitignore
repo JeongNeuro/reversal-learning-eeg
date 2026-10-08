@@ -1,0 +1,14 @@
+# Raw data and intermediate outputs are never committed
+data/*
+!data/README.md
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Emotiv Cortex credentials - never commit
+cortex_credentials.json
+
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

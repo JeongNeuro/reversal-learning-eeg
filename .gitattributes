@@ -1,0 +1,5 @@
+# Line endings are normalised to LF inside the repository.
+* text=auto eol=lf
+*.png binary
+*.edf binary
+*.xlsx binary
